@@ -1,0 +1,3 @@
+Find Drives mapped on users machine
+
+Get-WmiObject Win32_MappedLogicalDisk -computer BL-EMED-0RCO-DT.ms.uthouston.edu | select name, providername
