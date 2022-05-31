@@ -1,0 +1,1 @@
+Add-DnsServerResourceRecordA –Name "AD Server Name" -ZoneName "sub.acme.com" -AllowUpdateAny -CreatePtr -IPv4Address "192.168.1.100" -TimeToLive 01:00:00 
