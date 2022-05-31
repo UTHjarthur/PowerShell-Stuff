@@ -1,0 +1,1 @@
+Get-ADUser -filter * -Server "[AD-server-FQ.DN:3268" -Properties * | Select-Object name, samaccountname, mail, lastlogondate | Export-Csv "c:\Scripts\users.csv"
