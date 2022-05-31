@@ -1,0 +1,21 @@
+Set permissions on group policy
+
+# SetGPOEditors.ps1
+# Set GPO edit rights for the group GPO Editors on all GPOs
+
+import-module grouppolicy
+
+Set-GPPermissions -all -TargetName " [Sec Group Name] " -TargetType Group -PermissionLevel GpoEditDeleteModifySecurity
+
+# Script END
+
+
+# SetGPOEditors.ps1
+# Set GPO edit rights for the group GPO Editors on all GPOs
+
+import-module grouppolicy
+
+Set-GPPermissions -name "gpo" -TargetName " [Sec group name ] " -TargetType Group -PermissionLevel GpoEditDeleteModifySecurity
+
+# Script END
+ 
