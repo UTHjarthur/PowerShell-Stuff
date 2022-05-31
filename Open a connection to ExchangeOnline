@@ -1,0 +1,5 @@
+Open a connection to ExchangeOnline
+
+$login_Account = '[Exchange Online  admin Login ID] # setup as a prompt for login 
+Connect-ExchangeOnline -UserPrincipalName [enter userID@FQ.DN -ShowProgress $true
+
